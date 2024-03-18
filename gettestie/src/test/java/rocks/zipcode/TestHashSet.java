@@ -10,7 +10,7 @@ public class TestHashSet {
 
     @Test
     public void testHashSetSize(){
-        Set<String> set = new HashSet<>();
+        HashSet<String> set = new HashSet<>();
         set.add("bird");
         set.add("plane");
         set.add("dog");
@@ -21,7 +21,7 @@ public class TestHashSet {
 
     @Test
     public void testHashSetContains(){
-        Set<String> set = new HashSet<>();
+        HashSet<String> set = new HashSet<>();
         set.add("bird");
         set.add("plane");
         set.add("dog");

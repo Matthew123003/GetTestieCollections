@@ -10,7 +10,7 @@ public class TestHashMap {
 
     @Test
     public void testMapHasValue(){
-        Map<String, String> map = new HashMap<>();
+        HashMap<String, String> map = new HashMap<>();
         map.put("a", "apple");
         map.put("b", "balloon");
 
@@ -19,7 +19,7 @@ public class TestHashMap {
 
     @Test
     public void testMapSize(){
-        Map<String, String> map = new HashMap<>();
+        HashMap<String, String> map = new HashMap<>();
         map.put("a", "apple");
         map.put("b", "balloon");
 

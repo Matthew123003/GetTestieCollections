@@ -10,7 +10,7 @@ public class TestArrayDeque {
 
     @Test
     public void testDequePush(){
-        Deque<String> stack = new ArrayDeque<>();
+        ArrayDeque<String> stack = new ArrayDeque<>();
         stack.push("First");
         stack.push("Second");
 
@@ -19,7 +19,7 @@ public class TestArrayDeque {
 
     @Test
     public void testDequePop(){
-        Deque<String> stack = new ArrayDeque<>();
+        ArrayDeque<String> stack = new ArrayDeque<>();
         stack.push("First");
         stack.push("Second");
 

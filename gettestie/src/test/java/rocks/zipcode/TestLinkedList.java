@@ -10,7 +10,7 @@ public class TestLinkedList {
 
     @Test
     public void testLinkedListClear(){
-        List<String> list = new LinkedList<>();
+        LinkedList<String> list = new LinkedList<>();
         list.add("bird");
         list.add("plane");
         list.add("dog");
@@ -21,7 +21,7 @@ public class TestLinkedList {
 
     @Test
     public void testLinkedListGet(){
-        List<String> list = new LinkedList<>();
+        LinkedList<String> list = new LinkedList<>();
         list.add("bird");
         list.add("plane");
         list.add("dog");
